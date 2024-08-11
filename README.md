@@ -8,11 +8,11 @@ Django проект демонстрирует, как настроить и и�
 - two: Содержит модели и представления, связанные со второй базой данных (os2).
 
 
-Создайте миграции:
+Создайте:
 - python manage.py makemigrations one
 - python manage.py makemigrations two
-Примените миграции:
 - python manage.py migrate --database=os1
 - python manage.py migrate --database=os2
+
 Проверьте статус миграций:
 - python manage.py showmigrations
